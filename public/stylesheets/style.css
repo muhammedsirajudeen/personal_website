@@ -1,12 +1,14 @@
 body {
   background-image: url("../images/background.jpg");
-  background-size: cover;
+  position:relative;
+  background-size: 100% 100vh;
+  
   background-repeat: no-repeat;
 }
 .image1{
   position: absolute;
-  left: 510px;
-  top: 150px;
+  
+  
   
   border-radius: 100px;
 }
@@ -15,12 +17,14 @@ body {
   position:absolute;
   left: 450px;
   top: 150px;
+  display: none;
 
 }
 .image3{
   position:absolute;
   right: 450px;
   top: 150px;
+  display: none;
 
 }
 
@@ -29,15 +33,24 @@ body {
   
   right: 620px;
   top: 430px;
+  display: none;
 
 }
-.image5{
-  position:absolute;
-  bottom: 20px;
-  right: 640px;
-}
+
 #skillinfo{
   display: none;
+}
+.image5{
+  margin-bottom: 10%;
+}
+.null{
+  position:absolute;
+  left: 30px;
+}
+.null1{
+  position:absolute;
+  right: 30px;
+  
 }
 
 
