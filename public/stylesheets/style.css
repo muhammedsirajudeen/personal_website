@@ -4,10 +4,40 @@ body {
   background-repeat: no-repeat;
 }
 .image1{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 12%;
+  position: absolute;
+  left: 510px;
+  top: 150px;
   
   border-radius: 100px;
 }
+
+.image2{
+  position:absolute;
+  left: 450px;
+  top: 150px;
+
+}
+.image3{
+  position:absolute;
+  right: 450px;
+  top: 150px;
+
+}
+
+.image4{
+  position:absolute;
+  
+  right: 620px;
+  top: 430px;
+
+}
+.image5{
+  position:absolute;
+  bottom: 20px;
+  right: 640px;
+}
+#skillinfo{
+  display: none;
+}
+
+
