@@ -10,20 +10,22 @@ body {
   
   
   
+  
   border-radius: 100px;
 }
 
 .image2{
   position:absolute;
-  left: 450px;
+  /*left: 450px;
   top: 150px;
+  margin-left: 10%;*/
   display: none;
 
 }
 .image3{
   position:absolute;
-  right: 450px;
-  top: 150px;
+  /*right: 450px;
+  top: 150px;*/
   display: none;
 
 }
@@ -31,8 +33,8 @@ body {
 .image4{
   position:absolute;
   
-  right: 620px;
-  top: 430px;
+  /*right: 620px;
+  top: 430px;*/
   display: none;
 
 }
@@ -50,7 +52,15 @@ body {
 .null1{
   position:absolute;
   right: 30px;
+  top:90px;
   
+}
+#row1{
+  height:100px;
+  
+}
+#row2{
+  height:100px;
 }
 
 
