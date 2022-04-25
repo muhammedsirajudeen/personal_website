@@ -57,5 +57,22 @@
 #row2{
   height:200px;
 }
-
+#card1{
+  display: none;
+}
+.image7{
+  display: none;
+}
+.image8{
+  display: none;
+}
+#heading{
+  display: none;
+}
+#card2{
+  display: none;
+}
+#card3{
+  display: none;
+}
 

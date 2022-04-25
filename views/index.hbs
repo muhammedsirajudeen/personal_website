@@ -56,15 +56,14 @@
 
 <div class="container">
   <div class="row  ">
-    <div class=" col-lg-5 p-3  text-left" >
+    <div class=" col-lg-5  p-3  text-left" >
     
 <img class="image-fluid mx-auto text-left hover-shadow" src="../images/siraju.jpg"  width="400" height="400" id="siraju">
 
 </div>
-<div class=" col-lg-7 my-auto   text-center">
-  <p class="note note-light p-5">
-    <strong>Muhammed Sirajudeen:</strong><br/>looking to implement science fiction
-  </p>
+<div class=" col-lg-7  my-auto   text-center p-3">
+  <h3>Muhammed <br/>Sirajudeen</h3>
+  <p class="p-3">looking to implement science fiction</p>
   
 </div></div></div>
 <div class="container">
@@ -76,7 +75,7 @@
 </div>
 
 <div class="col-md-4 col-lg-4 text-center p-3">
-<img class="image4 tt" src="./images/notebook-of-contacts.png" width="70" height="70" id="cont" data-bs-placement="top" title="Contact Info">
+<img class="image4 tt" src="./images/notebook-of-contacts.png" width="70" height="70" id="cont" data-bs-placement="top" title="Contact Info:+91-7907140006 muhammedsirajudeen29@gmail.com">
 </div>
 <div class="col-md-4 col-lg-4 text-center p-3">
   <img class="image2 tt" src="./images/skill.png" width="70" height="70" id="skill" data-bs-placement="top" title="Skillset">
@@ -92,6 +91,58 @@
 
   }
 </script>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h2 class="text-center" id="heading">Skills</h2>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class=" col-lg-4 p-2">
+      <div class="card mx-auto" style="width: 18rem;" id="card1">
+  <img class="card-img-top " src="./images/machine-learning.jpg" alt="Card image cap">
+  <div class="card-body">
+    <ul>
+      <li>Machine Learning</li>
+      
+      
+    </ul>
+    <p>Machine Learning is the process of analysing data and 
+      building the models and predicting the future
+    </p>
+  </div>
+</div>
+    </div>
+    <div class="col-lg-4 p-2">
+      <div class="card  image7 mx-auto" style="width: 18rem;" id="card2">
+  <img class="card-img-top" src="./images/software-engineering.jpg" alt="Card image cap">
+  <div class="card-body">
+    <ul><li>
+      Software Engineering
+    </li></ul>
+    <p>This is the process of developing software and also dealing with the software development
+      cycle </p>
+  </div>
+</div>
+    </div>
+    <div class="col-lg-4 p-2 " >
+      <div class="card  mx-auto" style="width: 18rem;" id="card3">
+  <img class="card-img-top " src="./images/embedded.jpg" alt="Card image cap">
+  <div class="card-body">
+    <ul>
+      <li>
+        Embedded Systems 
+      </li>
+    </ul>
+    <p>This domain mainly deals with softwarea interacting with hardware</p>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+
 <footer>
 <div class="container">
   <div class="row">
@@ -101,6 +152,7 @@
 </div>
 </div>
 </div>
+
 </footer>
    
       <script>
@@ -109,13 +161,25 @@
           $("#skill").show(1500)
           $("#educ").show(1500)
           $("#cont").show(1500)
+          
         })
+         
       
           
         })
-        
-      
-    </script>
+       </script>
+       <script>
+         $(document).ready(function()
+         {
+           $("#skill").mouseenter(function(){
+             $("#card1").show(800)
+             $("#heading").show(800)
+             $("#card2").show(800)
+             $("#card3").show(800)
+           })
+         })
+       </script>
+
     <script>
       const tooltips=document.querySelectorAll('.tt')
       tooltips.forEach(t=>{
