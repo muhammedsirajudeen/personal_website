@@ -1,5 +1,6 @@
 <html>
     <head>
+      
       <!-- Font Awesome -->
 <link
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -17,17 +18,37 @@
 />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-        <title>Muhammed Sirajudeen</title>
+        
         <style>
           
-          .dark-mode{
-            background-color: black;
+          .card-1{
+            background-color:black;
             color:white;
           }
+          .body{
+            background-color:black;
+            color: white;
+          }
+          .card-2{
+            background-color:black ;
+            color:white;
+          }
+          .card-3{
+            background: black;
+            color: white;
+          }
+          .card-4{
+            background-color:black;
+            color: white;
+          }
+          
+            
+          
         </style>
-       
+    
     </head>
-    <body>
+    <body id="body">
+      <noscript>Please enable Javascript to view this website application</noscript>
       <!-- MDB -->
 <script
   type="text/javascript"
@@ -142,25 +163,57 @@
     </div>
   </div>
 </div>
-
+<div  class="container">
+  <div class="row">
+    <div class="col">
+      <h3 class="text-center " id="educhead">Education</h3>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="card  image8 mx-auto" style="width: 18rem;" id="card4">
+  <img class="card-img-top" src="./images/education.jpg" alt="Card image cap">
+  <div class="card-body">
+    <ul><li>
+      Bsc Computer Science
+    </li></ul>
+    <p>Intrested in the theoretical aspects of computing and also the application level problems </p>
+  </div>
+    </div>
+  </div>
+</div>
+</div>
 <footer>
 <div class="container">
   <div class="row">
   <div class="col text-center">
   
- <img class="image5 my-auto" src="./images/dark-mode.png" width="40" height="40" onclick="Dark()" id="darkm">  
+ <img class="image5 my-auto" src="./images/moon(1).png" width="40" height="40"  id="dark">  
 </div>
 </div>
 </div>
 
 </footer>
-   
+
       <script>
       $(document).ready(function(){
         $("#siraju").mouseenter(function(){
           $("#skill").show(1500)
           $("#educ").show(1500)
           $("#cont").show(1500)
+          
+          
+        })
+        $("#dark").click(function(){
+          $("#card1").toggleClass("card-1");
+          $("#body").toggleClass("body");
+          $("#card2").toggleClass("card-2");
+          $("#card3").toggleClass("card-3");
+          $("#card4").toggleClass("card-4")
+          
+          
           
         })
          
@@ -179,6 +232,18 @@
            })
          })
        </script>
+       <script>
+         $(document).ready(function(){
+           $("#educ").mouseenter(function(){
+             $("#educhead").show(800)
+             $("#card4").show(800)
+           })
+           
+         })
+
+       </script>
+    
+       
 
     <script>
       const tooltips=document.querySelectorAll('.tt')
@@ -186,6 +251,13 @@
         new bootstrap.Tooltip(t)
       })
     </script>
+    <script>
+      $(function(){
+        $(document).attr("title","Muhammed Sirajudeen")
+      });
+      </script>
+      <script>
+
     </div>
     </div>
     </body>
